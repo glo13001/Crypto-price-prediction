@@ -30,6 +30,7 @@ How is Sentiment Analysis Used in Crypto Price Prediction?
 
 - Positive sentiment correlates with price increase, negative sentiment with decrease.
 
+
   Data Sources
 
 - Twitter is a rich source for sentiment analysis data, especially for
@@ -38,7 +39,8 @@ cryptocurrencies.
 - Kaggle offers diverse real-world datasets, catering to data scientists
 and enthusiasts in various domains.
 
--Bitcoin prices were extracted from CoinsMarket Platform.
+- Bitcoin prices were extracted from CoinsMarket Platform.
+
 
 Implication of NLP
 
@@ -50,13 +52,6 @@ Text Tokenization: Break text into tokens for analysis.
 
 Data Normalization: Normalize sentiment scores for consistency.
 
-Output Layer
-
-1. Regression Task: The output layer
-predicts the closing price,
-representing a regression task.
-
-Methodology
 
 Models
 
@@ -78,7 +73,7 @@ updates.
 
 - Training: Data split, model trained, hyperparameters tuned.
 
-- GRU
+GRU
 
 - Data Input: Sequential data divided into fixed-length sequences,
 preprocessed.
